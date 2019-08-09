@@ -3,8 +3,10 @@ module.exports = async function(req,res) {
     const postBody = req.body.postBody
     sails.log.info("create post object with text: " + postBody)
     //waterline creation syntax
-    const record = await Post.create({text: postBody}).fetch()
+    //prob userId user?
+    const userId = req.session.userId
+     await Post.create({text: postBody,user: userId}).fetch()
 
-    res.send(record)
+    res.redirect('/post')
 
 }
