@@ -9,4 +9,4 @@ iOS Social app with custom backend
 * How to create and save posts with HTML form and fetching current userId
 
 ### ios
-* soon
+* How to send requests with Alamofire pod and display data with SDWebImaged pod

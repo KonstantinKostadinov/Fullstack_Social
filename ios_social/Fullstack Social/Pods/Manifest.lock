@@ -1,0 +1,30 @@
+PODS:
+  - Alamofire (4.8.2)
+  - JGProgressHUD (2.0.4)
+  - LBTATools (1.0.8)
+  - SDWebImage (5.1.0):
+    - SDWebImage/Core (= 5.1.0)
+  - SDWebImage/Core (5.1.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - JGProgressHUD
+  - LBTATools
+  - SDWebImage
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - JGProgressHUD
+    - LBTATools
+    - SDWebImage
+
+SPEC CHECKSUMS:
+  Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
+  JGProgressHUD: 62658b14e72cccf179efc7a13bcb54d30b92fc22
+  LBTATools: 913ba0a3fbad250d042368ca2a0f314cdb015de1
+  SDWebImage: fb387001955223213dde14bc08c8b73f371f8d8f
+
+PODFILE CHECKSUM: 160fd695806fe30b3b4c87a1b329b6e48402840b
+
+COCOAPODS: 1.6.1
